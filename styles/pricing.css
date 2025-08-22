@@ -1,0 +1,118 @@
+:root {
+  --pink: #ff2965;
+  --dark: #0b132b;
+  --white: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--dark);
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+
+/* Pricing Section */
+.pricing-section {
+   max-width: var(--max-width);
+  text-align: center;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pricing-section h4 {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+  display: grid;
+}
+
+.pricing-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.pricing-grid {
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.pricing-card {
+  background: var(--white);
+  color: #000;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  display: grid;
+  flex-direction: column;
+}
+
+.pricing-card h3 {
+  margin: 0 0 1rem;
+}
+
+.price span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  margin: 1.5rem 0;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 0.8rem;
+}
+
+.btn-outline, .btn-primary {
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-outline {
+  border: 0.1rem solid #000;
+  background: transparent;
+  margin-top: auto;
+  
+}
+
+.btn-primary {
+  background: var(--pink);
+  color: var(--white);
+}
+
+/* Featured Card */
+.featured {
+  transform: scale(1.05);
+}
+
+/* Subscription */
+.subscribe-section {
+  text-align: center;
+  background: var(--white);
+  color: #000;
+  padding: 3rem 2rem;
+}
+
+.subscribe-section h5 {
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
