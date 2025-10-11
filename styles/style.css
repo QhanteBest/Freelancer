@@ -1,150 +1,37 @@
-:root {
-  --primary-bg: #0b0e1d;
-  --white: #ffffff;
-  --pink: #ff3e83;
-}
-
-* {
+/* Style.css */
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: var(--primary-bg);
-  color: var(--white);
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #040f28;
+  color: #fff;
   line-height: 1.6;
 }
 
 
-/* Navbar styles */
-.navbar {
-  background-color: #06132a;
-  padding: 1rem 2rem;
-}
 
-.navbar .container {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-/* Logo */
-.logo {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #ffffff;
-}
 
-/* Links */
-.nav-links {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
 
-.nav-links a {
-  text-decoration: none;
-  color: #999;
-  font-size: 0.95rem;
-  transition: color 0.3s ease;
-}
 
-.nav-links a:hover {
-  color: #fff;
-}
 
-.nav-links .active {
-  color: #fff;
-  font-weight: bold;
-}
 
-/* Register button */
-.register-btn {
-  padding: 0.4rem 1rem;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  color: #ffffff;
-  transition: all 0.3s ease;
-}
 
-.register-btn:hover {
-  background-color: transparent;
-  color: #0b0e1d;
-}
 
-/* Hero */
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 4rem 8%;
-  max-width: var(--max-width);
-  
-}
 
-.hero-text {
-  max-width: 31.25rem;
-}
 
-.hero-text h1 {
-  font-size: 3rem;
-}
 
-.hero-text span {
-  color: var(--white);
-  font-weight: bold;
-}
 
-.hero-text p {
-  margin: 1.5rem 0;
-  font-size: 1rem;
-  max-width: 30rem;
-  color: #999;
-}
-.hero-image {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
 
-.hero img {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.hero-image img {
-  height: 31.25rem;
-  width: auto;
-  object-fit: cover;
-}
-.get-started {
-  background-color: #FC3867;
-  color: var(--white);
-  padding: 0.8rem 2rem;
-  border-radius: 2rem;
-  text-decoration: none;
-  font-size: 1rem;
-}
-/* Stats */
-.stats {
-  background-color: var(--white);
-  color: var(--primary-bg);
-  display: flex;
-  justify-content: space-around;
-  padding: 3rem 2rem;
-}
 
-.stat h2 {
-  font-size: 2rem;
-  color: var(--primary-bg);
-}
 
-.stat p {
-  font-size: 1rem;
-}
+
+
+
+
+
 
