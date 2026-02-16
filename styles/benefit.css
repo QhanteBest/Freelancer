@@ -1,0 +1,137 @@
+/* Benefits */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0b1b33;
+}
+
+.benefit-section {
+      width: 100%;
+      padding: 4rem 6rem;
+      color: #ffffff;
+    }
+
+    .sub-heading {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #ffffff;
+      margin-bottom: 1rem;
+    }
+
+    .main-heading {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 2.5rem;
+      width: 45%;
+    }
+
+    .right-text {
+      width: 35%;
+      font-size: 1rem;
+      color: #ffffff;
+      margin-left: auto;
+      text-align: left;
+      margin-top: -3.65rem;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .benefits-row {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 4rem;
+      width: 100%;
+    }
+
+    .benefit-box {
+      width: 30%;
+      color: var(--text-white);
+      display: flex;
+      gap: 1rem;
+    }
+
+    .benefit-box img {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    .benefit-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .benefit-text {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: var(--text-light);
+    }
+
+    .divider {
+      width: 0.15rem;
+      background: rgba(99, 98, 98, 0.753);
+      height: auto;
+    }
+
+@media (max-width: 48rem) {
+  .benefits-row {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .benefit-box {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .benefit-box img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+  .benefit-text {
+    font-size: 1rem;
+  }
+  .divider {
+    display: none;
+  }
+  .right-text {
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+  .main-heading {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .sub-heading {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
